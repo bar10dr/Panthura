@@ -2,7 +2,7 @@
 
 int main()
 {
-	print_text console("Panthaura rocks!");
+	print_text("Panthaura rocks!");
 
 	return 0;
 };
