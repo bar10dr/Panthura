@@ -1,12 +1,8 @@
-#include "console_extension.h"
-
-using namespace Extensions;
+#include "printText.h"
 
 int main()
 {
-	console_extension console;
-
-	console.print_text("Panthaura rocks!");
+	print_text console("Panthaura rocks!");
 
 	return 0;
 };
